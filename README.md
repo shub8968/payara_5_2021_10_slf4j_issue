@@ -1,9 +1,9 @@
-# TEst project for 
+# TEst project for https://github.com/payara/Payara/issues/5554
 
 This repository is used to reproduce the issue with Payara 5.2021.10 related to SLF4J logging when Apache Santuario is
 used in the application. 
 
-See also:
+See also: https://github.com/payara/Payara/issues/5554
 
 ## Usage:
 
