@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  sample-app:
+    build: .
+    ports:
+      - "8080:8080"
+      - "4848:4848"
