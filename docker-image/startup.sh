@@ -1,7 +1,6 @@
 #!/bin/sh
-set -e
 
-function shutdown {
+shutdown(){
   echo "Trigger shutdown"
   bin/asadmin stop-domain domain1
 }
