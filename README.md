@@ -20,7 +20,7 @@ See also: https://github.com/payara/Payara/issues/5554
     ```bash
     # Call the endpoint which tries to initialize Apache Santuario => request should fail. This means
     # you receive a 501 status code and in the logs you find the error log with the stack trace below.
-    $ curl http://localhost:8080/sample-app/no-santuario
+    $ curl http://localhost:8080/sample-app/santuario
     ```
    
 ### Stack Trace of failing request:
